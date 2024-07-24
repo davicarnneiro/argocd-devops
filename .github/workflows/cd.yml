@@ -15,7 +15,7 @@ jobs:
         with:
           username: davicarneiro
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: davicarneiro/argocd
+          repository: davicarneiro/argocd-devops
           tags: ${{ github.sha }}, latest     
 
   deploy:
