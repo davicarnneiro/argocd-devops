@@ -44,7 +44,6 @@ jobs:
           git commit -am "change image tag"
 
       - name: push
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.PAT }}
+        uses: ad-m/github-push-action@master
+        
 
